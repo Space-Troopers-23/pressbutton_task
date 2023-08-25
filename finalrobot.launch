@@ -1,0 +1,5 @@
+<launch>
+    <param name="tags" value="1 2 3 4"/> <!-- ArUco marker ID'lerini burada belirtin -->
+    <node name="main2" pkg="ur3_sim" type="main2.py" output="screen"/>
+</launch>
+
